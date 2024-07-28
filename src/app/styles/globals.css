@@ -68,3 +68,76 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: 'Heming';
+  src: url('/fonts/Heming.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-heming {
+  font-family: 'Heming', sans-serif;
+}
+
+.NavigationMenuIndicator {
+  background-color: grey;
+}
+.NavigationMenuIndicator[data-orientation='horizontal'] {
+  height: 3px;
+  transition: width, transform, 250ms ease;
+}
+
+/* styles.css */
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-date {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: relative;
+  margin-left: 40px;
+}
+
+.timeline-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.timeline-item:before {
+  content: '';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  width: 3px;
+  height: 100%;
+}
+
+.timeline-item:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+}

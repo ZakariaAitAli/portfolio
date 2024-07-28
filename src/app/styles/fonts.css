@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'AromaticDream';
+    src: url('/fonts/AromaticDream.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NewtonHoward';
+    src: url('/fonts/NewtonHoward.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GodOfWar';
+    src: url('/fonts/GodOfWar.ttf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logo-font {
+    font-family: 'GodOfWar', sans-serif;
+}

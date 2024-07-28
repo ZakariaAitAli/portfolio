@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills: React.FC = () => {
   return (
-    <section className="py-8">
+    <section className="py-8" id="skills">
       <h2 className="text-2xl font-bold mb-4">Skills</h2>
       <ul className="list-disc list-inside">
         <li>DevOps Tools: Docker, Kubernetes, Jenkins, Terraform</li>
